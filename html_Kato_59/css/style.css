@@ -1,0 +1,281 @@
+
+/* 共通 */
+
+.wrap{
+    width: 1200px;
+    margin: auto;
+}
+
+body{
+    color: black;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.title-eng-y{
+    font-size: 24px;
+    text-align: center;
+    color: #ffd61a;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.title-eng{
+    font-size: 24px;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.title-jp{
+    font-size: 18px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.paragraph{
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.align-center{
+    text-align: center;
+}
+
+.display-flex{
+    display: flex;
+}
+
+/* Header */
+
+.header{
+    display: flex;
+    height: 100px;
+    align-items: center;
+    width: 1200px;
+}
+
+.header-text{
+    display: flex;
+    font-size: 21px;
+    text-decoration: none;  
+    margin-left: 200px;
+}
+
+.header-text-i{
+    padding: 15px;
+}
+
+/* Main */
+
+.main-text{
+    position: absolute;
+    top: 230px;
+    left: 480px;
+    color: white;
+    line-height: 30px;
+    text-align: center;
+}
+
+.main-text-i{
+    font-size: 22px;
+}
+
+/* ABOUT */
+
+.about-text{
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 80px;
+    margin: auto;
+    text-align: center;
+    width: 1200px;
+}
+
+/* COURSE */
+
+.course-visual{
+    margin-top: 80px;
+    display: flex;
+    height: 240px;
+    width: 25%;
+    max-width: 100%;
+}
+
+.course-text{
+    font-size: 16px;
+    text-align: center;
+    line-height: 1.5;
+    margin-bottom: 60px;
+}
+
+.course-content{
+    display: flex;
+}
+
+.course-content-01{
+    background-color: rgb(245, 245, 245);
+    width: 600px;
+    height: 300px;
+    text-align: left;
+    margin: 0;
+    padding-top: 100px;
+    padding-left: 50px;
+}
+
+.course-content-02{
+    background-color: rgb(245, 245, 245);
+    width: 600px;
+    height: 300px;
+    text-align: left;
+    margin: 0;
+    padding-top: 100px;
+    padding-left: 50px;
+}
+
+
+/* NEWS */
+
+.news-content{
+    display: flex;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+.news-visual{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.news-text{
+    font-size: 14px;
+    line-height: 2;
+    margin: 0;
+    padding: 20px;
+}
+
+.news-button{
+    margin: auto;
+    height: 60px;
+    width: 300px;
+    background-color: #ffd61a;
+    color: white;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.news-button p {
+    position: relative;
+    top: 50%;
+    transform: translate(0%, -50%);
+    
+}
+
+.news-button:hover{
+    color: black;
+}
+
+
+/* ACCESS */
+
+.access-title{
+    background-color: rgb(245, 245, 245);
+    justify-content: center;
+    align-items: center;
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+
+.access-title h4, .access-title p {
+    margin: 0;
+    text-align: center;
+    padding: 15px;
+}
+
+.access-table{
+    background-color: rgb(245, 245, 245);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.access-table-i{
+    border-collapse: collapse;
+}
+
+.access-table-th{
+    padding: 10px;
+    width: 200px;
+}
+
+
+/* CONTACT */
+
+.contact-title{
+    text-align: center;
+    font-size: 24px;
+}
+
+.contact-title-sub{
+    text-align: center;
+    font-size: 18px;
+}
+
+.contact-text{
+    font-size: 16px;
+    text-align: center;
+    line-height: 1.5;
+    margin-bottom: 60px;
+}
+
+.contact-table{
+    margin: auto;
+    border-top: #bfbfbf;
+    border-bottom: #bfbfbf;
+}
+
+.cb{
+    padding: 10px;
+}
+
+.contact-table-th{
+    width: 250px;
+    padding: 15px;
+    vertical-align: top;
+}
+
+.contact-table-td{
+    width: 350px;
+    padding: 15px;
+}
+
+.contact-table-cb{
+    margin-left: 20px;
+}
+
+.contact-button{
+    margin-top: 30px;
+    height: 60px;
+    width: 300px;
+    background-color: #ffd61a;
+    color: white;
+    border: none;
+    margin-left: 450px;
+}
+
+
+/* Footer */
+
+#footer{
+    margin-top: 140px;
+    background-color: grey;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+
